@@ -123,11 +123,11 @@ padding: 20px 0;
 }
 /* fact-card area css */
 .facts-des{
-  color:  #727272;
-font-family: Work Sans;
+color:  #727272;
 font-size: 16px;
 font-weight: 400;
-line-height: 26px; /* 162.5% */
+line-height: 26px; 
+padding: 20px 0;
 }
 .fact-card{
   display: flex;
@@ -149,4 +149,30 @@ padding: 15px 0;
 color: #727272;
 font-size: 20px;
 font-weight: 600;
+}
+
+/* sponsors area css */
+.section-title{
+  text-align: center;
+  margin-top: 60px;
+}
+.sponsors-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 40px;
+}
+.sponsors-img img{
+  width: 165px;
+}
+/* footer area css */
+.footer{
+  border-radius: 8px;
+  background: #FFF4E7;
+  color: #424242;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  margin: 50px 0;
 }
