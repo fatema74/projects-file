@@ -6,11 +6,17 @@
   .header-area{
     padding: 20px;
   }
-  .nav{
+  .nav, .teams-contant-img{
     flex-direction: column;
   }
   .nav ul{
     padding-top: 20px;
+  }
+  .tem-img{
+    grid-template-columns: 1fr;
+  }
+  .team-contant{
+    padding: 0 20px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -20,10 +26,11 @@
   .header-area{
     padding: 50px;
   }
-  .nav{
+  .nav, .teams-contant-img{
     flex-direction: column;
   }
   .nav ul{
     padding-top: 20px;
   }
+  
 }
