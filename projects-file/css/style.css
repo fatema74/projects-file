@@ -24,6 +24,17 @@ color:  #131313;
 font-size: 3rem;
 font-weight: 700;
 }
+.btn{
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: #FF900E;
+padding: 20px 25px;
+border: 0;
+cursor: pointer;
+}
 /* header area css */
 .header-area{
   background: rgba(255, 144, 14, 0.10);
@@ -67,17 +78,7 @@ font-weight: 400;
 line-height: 26px; 
 padding: 30px 0;
 }
-.btn{
-color: #FFF;
-text-align: center;
-font-size: 20px;
-font-weight: 600;
-border-radius: 8px;
-background: #FF900E;
-padding: 20px 25px;
-border: 0;
-cursor: pointer;
-}
+
 /* .banner img{
   margin-top: 20px;
   width: 100%;
@@ -100,7 +101,7 @@ cursor: pointer;
   padding: 0 70px;
 }
 .team-title{
-color:  #727272;
+color: #727272;
 font-size: 45px;
 font-weight: 500;
 }
@@ -118,8 +119,67 @@ font-weight: 700;
 color: #727272;
 font-size: 16px;
 font-weight: 400;
-line-height: 26px; /* 162.5% */
+line-height: 26px;
 padding: 20px 0;
+}
+/* features area css */
+.features{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  gap: 100px;
+}
+.features h3{
+  border-left: 5px solid #FF900E;
+  padding-left: 30px;
+}
+.feature-des{
+color: #727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 20px 0;
+}
+.card{
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+margin-bottom: 20px;
+}
+.card-title{
+color: #131313;
+font-size: 20px;
+font-weight: 600;
+}
+.card-des{
+color: #727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.feature-img img{
+width: 850px;
+height: 900px;
+border-radius: 8px;
+}
+.ten-yer{
+border-radius: 8px;
+background: #FF900E;
+width: 300px;
+color: #FFF;
+padding: 40px;
+}
+.ten-title{
+text-align: center;
+font-size: 60px;
+font-weight: 700;
+line-height: 70px; 
+}
+.ten-des{
+font-size: 25px;
+font-weight: 500;
+line-height: 40px;
 }
 /* fact-card area css */
 .facts-des{
@@ -139,13 +199,13 @@ padding: 20px 0;
   text-align: center;
   padding: 30px;
 }
-.fact-card, .card-stat{
+.card-stat{
 color: #424242;
 font-size: 45px;
 font-weight: 600;
 padding: 15px 0;
 }
-.fact-card, .card-stat{
+.card-title{
 color: #727272;
 font-size: 20px;
 font-weight: 600;

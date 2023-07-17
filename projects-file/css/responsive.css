@@ -22,6 +22,10 @@
     flex-direction: column;
     gap: 10px;
   }
+  .facts{
+    flex-direction: column;
+    align-items: center;
+  }
   .footer{
     text-align: center;
   }
@@ -35,6 +39,7 @@
   }
   .nav, .teams-contant-img, .sponsors-img{
     flex-direction: column;
+    align-items: center;
   }
   .nav ul{
     padding-top: 20px;
